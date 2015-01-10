@@ -1,0 +1,32 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url(https://unsplash.imgix.net/photo-1415889678233-eb900aeee9e1?q=75&fm=jpg&s=a41f4d6b1848cd673323fa4ee17da470);
+  height: 800px;
+  margin: 0px;
+  background-position: center;
+  h1 {
+    text-transform: uppercase;
+    color: #e21d1d;
+    text-shadow: 0px 2px 3px #555;
+  }
+  h2 {
+    color: #fff;
+    text-shadow: 0px 2px 3px #555;
+  }
+  .container {
+    padding: 80px 0px;
+  }
+}
+
+.filter {
+  background-color: rgba(215,226,241,0.9);
+  padding: 20px 30px 10px 30px;
+  border-radius: 10px;
+}
